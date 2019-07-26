@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+@mixin active {
+	background-color: $active-bg-color;
+    border-color: $active-border-color;
+    color: $normal-color;
+}

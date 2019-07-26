@@ -1,0 +1,41 @@
+@import  './styles/variables.scss';
+@import './styles/mixins.scss';
+
+.App {
+  text-align: center;
+}
+
+.form__fld-cont {
+  padding: 20px;
+  text-align: 'center';
+  color: $normal-color;
+
+  .form-btn {
+    margin: 5px;
+    width: 75%;
+  }
+
+  .active-btn {
+    @include active;
+  }
+
+  .active-btn:hover {
+    @include active;
+    border-color: $active-border-hover-color;
+  }
+}
+
+.margin10 {
+  margin: 10px; 
+}
+
+.margin3 {
+  margin:3px;
+}
+
+
+.height100P {
+  height: 100%;
+}
+
+

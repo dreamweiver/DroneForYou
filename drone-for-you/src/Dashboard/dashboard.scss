@@ -1,0 +1,31 @@
+@import './../styles/variables.scss';
+
+.dashboard {
+
+	.dashboard__cont {
+		margin: 20px;
+	}
+
+	.dashboard__sta {
+		height: 450px;
+		width: 100%;	;
+	}
+
+	.dashboard__sta-row1 {
+		flex-grow: 1;
+		height: 20%;
+	}
+	
+	.dashboard__sta-row	 {
+		flex-grow: 1;
+		height: 40%;
+	}
+
+	.header-app-bar {
+		header {
+			background-color: $dim-black;
+			color: $normal-color;
+		}
+		
+	}
+}
