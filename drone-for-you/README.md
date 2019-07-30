@@ -1,14 +1,15 @@
 # Drone For You
 
- *React v16.8* based application that will simulate a scenario set in the WATCH_DOGS(UbiSoft games) universe. **Drone For You** allows user to rent a drone and use it until for personal or commerical purposes.
+ *React v16.8* based application that will simulate a scenario set in the WATCH_DOGS(UbiSoft games) universe.
+ **Drone For You** allows user to rent a drone and use it for personal or commerical purposes.
 
 
 ### Installing & Running app ?
 
-+ Open terminal and clone the repo from gitlab as shown below or download the project from gitlab location, https://gitlab.com/ubisoft-club-mobile-technical-test/manoj-lakshman-tech-test
++ Open terminal and clone the repo from github as shown below or download the project from github location, https://github.com/dreamweiver/DroneForYou/
 
 ```
-root-dir $ git clone https://gitlab.com/ubisoft-club-mobile-technical-test/manoj-lakshman-tech-test.git
+root-dir $ git clone https://github.com/dreamweiver/DroneForYou.git
 ```
 
 + navigate to root directory of the project and run the below script to install all the dependencies of the project
@@ -31,7 +32,7 @@ http://localhost:3000
 
 ### Running Unit Test Cases ?
 
-+ In order to run the Unit test case defined in the application, navigate to root directory of the application and run below npm command
++ In order to run the Unit test cases and snapshot test cases defined in the application, navigate to root directory of the application and run below npm command
 
 
 ```
