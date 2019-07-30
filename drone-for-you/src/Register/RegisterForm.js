@@ -53,7 +53,6 @@ class RegisterForm extends Component {
 
   // Register or signup new user to the system
   register(event) {
-    debugger;
     let {firstName, lastName, isBanned, phoneNumber, emailId} = this.state;
     let user = {
           firstName,

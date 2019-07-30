@@ -9,7 +9,6 @@ import AuthenticationService from  './../Services/AuthenticationService';
 import UserService from  './../Services/UserService';
 import NotificationBar from './../Common/Notification';
 import './dashboard.scss';
-
 const droneStationsCount = 3; // Number of Drone stations defined on app
 const notificationDimissTime =  5000; // dismm time for all notifications
 
@@ -181,18 +180,6 @@ class Dashboard extends Component {
       
     }, 1000); // update the time every second
   }
-
-  //TODO: logout functionality 
-  
-  // logout user from applciation
-  // clear session after logging out
-  // logout() {
-  //   AuthenticationService.logoutUser().then(status => {
-  //     this.setState({...this.state, redirectTo: true, redirectPath: {pathName:'/home'}});
-  //   }).catch(error => {
-  //     // handle errors if logout fails
-  //   });
-  // }
 
   // Rent a drone, show timer and remove the rented drone from its station
   rentDrone(droneDetails, stationId) {

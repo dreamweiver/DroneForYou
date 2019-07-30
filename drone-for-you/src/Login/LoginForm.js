@@ -48,7 +48,6 @@ class LoginForm extends Component {
 
   // login functionality
   login(event) {
-    debugger;
     let isAuthenticated = false;
     let userData;
 

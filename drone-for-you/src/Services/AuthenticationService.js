@@ -10,7 +10,7 @@ const AuthenticationService = {
         return session.getItem('isAuthenticated') === "true";
     },
     banUser: function(uniqueId){
-        uniqueId = uniqueId.toLowerCase(); // email 
+        uniqueId = !!uniqueId && uniqueId.toLowerCase(); // email 
         let userData = userDataStorage.getItem(uniqueId);
 
         if(!!userData){
@@ -22,7 +22,7 @@ const AuthenticationService = {
     },
     isUserBanned: function(uniqueId) {
         let userData;
-        uniqueId = uniqueId.toLowerCase(); // email 
+        uniqueId = !!uniqueId && uniqueId.toLowerCase(); // email 
         if(uniqueId) {
             userData = JSON.parse(userDataStorage.getItem(uniqueId));
         }
