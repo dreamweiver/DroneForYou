@@ -6,7 +6,7 @@
 
 ### Installing & Running app ?
 
-+ Open terminal and clone the repo from github as shown below or download the project from github location, https://github.com/dreamweiver/DroneForYou/
++ Open terminal and clone the repo from below github link or you can also the project from github as zip/tar, https://github.com/dreamweiver/DroneForYou/
 
 ```
 root-dir $ git clone https://github.com/dreamweiver/DroneForYou.git
